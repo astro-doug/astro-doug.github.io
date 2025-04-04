@@ -1787,13 +1787,13 @@ input, select, textarea {
 
 	header.major h2 {
 		color: #9276e3;
-		font-size: 3.5em;
+		font-size: 2.5em;
 	}
 
 		header.major h2 + p {
 			color: #777;
-			font-size: 1.75em;
-			font-weight: 700;
+			font-size: 1.25em;
+			font-weight: 400;
 			margin-top: -0.75em;
 		}
 
@@ -2433,7 +2433,7 @@ input, select, textarea {
 				padding-right: 0 !important;
 			}
 
-			ul.icons li .icon:before {
+			ul.icons li.icon:before {
 				font-size: 1.25em;
 			}
 
@@ -2830,7 +2830,7 @@ input, select, textarea {
 	}
 
 		#main > section > .container {
-			padding: 6em 0 4em 0;
+			padding: 2em 0 4em 0;
 		}
 
 		#main > section:first-child {

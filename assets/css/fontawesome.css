@@ -38,6 +38,23 @@
 .fa-regular {
   font-family: 'Font Awesome 6 Free'; }
 
+.fa-layers svg.svg-inline--fa {
+  background: transparent;
+}
+
+.sample {
+  margin: var(--spacing-xl);
+  padding: var(--spacing-xl);
+  border: 2px solid var(--fa-navy);
+  border-radius: var(--border-radius-md);
+  background-color: var(--white);
+}
+
+.sample .svg-inline--fa {
+  background-color: MistyRose;
+}
+
+
 .fa-brands,
 .fab {
   font-family: 'Font Awesome 6 Brands'; }
