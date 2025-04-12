@@ -1,4 +1,5 @@
-@import url("fontawesome-all.min.css");
+/*@import url("fontawesome-all.min.css");*/
+/*@import url("all.css");*/
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 /*
@@ -1786,13 +1787,13 @@ input, select, textarea {
 
 	header.major h2 {
 		color: #9276e3;
-		font-size: 3.5em;
+		font-size: 2.5em;
 	}
 
 		header.major h2 + p {
 			color: #777;
-			font-size: 1.75em;
-			font-weight: 700;
+			font-size: 1.25em;
+			font-weight: 400;
 			margin-top: -0.75em;
 		}
 
@@ -1922,7 +1923,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Font Awesome 6 Free';
 				font-weight: 900;
 			}
 
@@ -2026,7 +2027,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -2043,7 +2044,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 6 Brands';
 		}
 
 /* Image */
@@ -2397,14 +2398,14 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Font Awesome 6 Free';
 				font-weight: 400;
 			}
 
 			ul.feature-icons li:before {
 				background: #9276e3;
 				border-radius: 100%;
-				color: #ffffff;
+				color: #9276e3;
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2432,7 +2433,7 @@ input, select, textarea {
 				padding-right: 0 !important;
 			}
 
-			ul.icons li .icon:before {
+			ul.icons li.icon:before {
 				font-size: 1.25em;
 			}
 
@@ -2829,7 +2830,7 @@ input, select, textarea {
 	}
 
 		#main > section > .container {
-			padding: 6em 0 4em 0;
+			padding: 2em 0 4em 0;
 		}
 
 		#main > section:first-child {
@@ -3071,7 +3072,7 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Font Awesome 6 Free';
 						font-weight: 900;
 					}
 
